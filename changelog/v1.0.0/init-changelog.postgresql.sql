@@ -86,7 +86,7 @@ CREATE TABLE IF NOT EXISTS client_statistic
     total_sum    NUMERIC(12, 2) CHECK (total_sum >= 0),
     discount_sum NUMERIC(12, 2) CHECK (discount_sum >= 0)
 )
---changeset nikita.ryadnov:100
+--changeset nikita.ryadnov:10
 CREATE TABLE IF NOT EXISTS product_statistic
 (
     product_id   BIGINT  NOT NULL PRIMARY KEY,
