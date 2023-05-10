@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/changelog/v1.0.0/init-changelog.postgresql.sql
+  - include:
+      file: classpath:/changelog/v1.0.0/add-data-changelog.postgresql.sql
